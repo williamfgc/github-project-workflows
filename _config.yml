@@ -1,0 +1,29 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            GitHub Project Workflows
+tagline:          'A Jekyll theme'
+description:      'Giving scientists the tools they need to use computers to do better science'
+#url:              http://ornl-training.github.io/
+#baseurl:          /github-project-workflow
+
+author:
+  name:           'William F Godoy'
+
+github:
+  repo:           https://github.com/ornl-training/github-project-workflow/tree/gh-pages
+
+gems:
+  - jekyll-redirect-from
+
+kramdown:
+  # The following is untested, suppossed to work once Github gets Kramdown 1.6...
+  # (current visible at https://pages.github.com/versions)
+  math_engine: mathjax  # default in Kramdown
+  math_engine_opts:
+    preview: true   # not default but better acessibility
