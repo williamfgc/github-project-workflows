@@ -1,9 +1,0 @@
-<ol>
-{% for exercise in page.exercises %}
-  {% for otherpage in site.pages %}
-    {% if exercise == otherpage.title %}
-      <li>{{ otherpage.content }}</li>
-    {% endif %}
-  {% endfor %}
-{% endfor %}
-</ol>

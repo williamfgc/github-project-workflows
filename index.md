@@ -1,6 +1,11 @@
 ---
 layout: default
+title: ORNL's GitHub Project Workflows
 ---
+
+# {{ page.title }}
+
+![](./public/logo.png){:height="120px" width="120px"}
 
 This is the website for ORNL's training introduction to *GitHub Projects Workflows*. 
 

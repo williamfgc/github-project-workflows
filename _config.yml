@@ -9,6 +9,7 @@ permalink:        pretty
 title:            GitHub Project Workflows
 tagline:          'A Jekyll theme'
 description:      'Giving scientists the tools they need to use computers to do better science'
+theme: just-the-docs
 #url:              http://ornl-training.github.io/
 #baseurl:          /github-project-workflow
 
