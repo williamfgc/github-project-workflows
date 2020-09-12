@@ -5,19 +5,19 @@ highlighter:      rouge
 # Permalinks
 permalink:        pretty
 
+plugins:
+  - jekyll-remote-theme
 # Setup
 title:            GitHub Project Workflows
 tagline:          'A Jekyll theme'
 description:      'Giving scientists the tools they need to use computers to do better science'
 remote_theme:     pmarsceill/just-the-docs
+#theme:            just-the-docs
 #url:              http://ornl-training.github.io/
 #baseurl:          /github-project-workflow
 
 author:
   name:           'William F Godoy'
-
-github:
-  repo:           https://github.com/ornl-training/github-project-workflow/tree/gh-pages
 
 gems:
   - jekyll-redirect-from
